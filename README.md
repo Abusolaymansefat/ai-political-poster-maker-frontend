@@ -1,36 +1,208 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Political Poster Maker
 
-## Getting Started
+An AI-powered web platform for creating professional **Bangla political posters** quickly and easily. Users can choose a poster template, upload photos, enter campaign information, and generate a print-ready poster.
 
-First, run the development server:
+## 🔗 Live Demo
+
+**Frontend:** https://ai-political-poster-maker-frontend-eight.vercel.app/
+
+## 📌 Project Overview
+
+AI Political Poster Maker is a modern web application designed to simplify the process of creating customized Bangla political posters.
+
+Instead of manually designing every poster, users can select a template, provide their information, upload required photos, and generate a customized poster using AI-powered image generation and editing.
+
+The application provides a simple workflow:
+
+**Login → Choose Template → Add Information → Upload Photos → Generate Poster → Preview → History**
+
+## ✨ Features
+
+* 🔐 User Registration & Login
+* 🎨 Ready-made poster templates
+* 🖼️ Photo upload support
+* ✍️ Custom Bangla headline and text
+* 👤 Multiple leader/member photo support
+* 🤖 AI-powered poster generation
+* 🏳️ Party/organization information
+* 📍 Occasion and designation support
+* 👀 Poster preview
+* 📚 Generated poster history
+* 📱 Responsive design
+* ⚡ Modern and user-friendly interface
+
+## 🛠️ Technologies Used
+
+### Frontend
+
+* Next.js
+* React.js
+* TypeScript
+* Tailwind CSS
+* shadcn/ui
+* Lucide React
+* Axios
+* React Hook Form
+
+### Backend
+
+* Node.js
+* Express.js
+* TypeScript
+* MongoDB
+* Mongoose
+* JWT Authentication
+
+### AI
+
+* Google Gemini API
+* AI image generation/editing
+* AI-assisted poster customization
+
+### Deployment
+
+* Vercel
+
+## 📂 Main User Flow
+
+### 1. Authentication
+
+Users can create an account and securely log in to the platform.
+
+### 2. Select Template
+
+Users can choose from available Bangla poster templates.
+
+### 3. Add Poster Information
+
+Users can provide information such as:
+
+* Name
+* Designation
+* Party/Organization
+* Occasion
+* Bangla headline
+* Footer information
+
+### 4. Upload Photos
+
+Users can upload the required photos for the poster.
+
+### 5. Generate Poster
+
+The application processes the submitted information and uses AI-powered generation/editing to create the customized poster.
+
+### 6. Preview
+
+Users can preview the generated poster before using it.
+
+### 7. History
+
+Previously generated posters can be viewed from the user's history.
+
+## 🎯 Project Goal
+
+The main goal of this project is to make customized Bangla poster creation faster and easier through a modern web interface and AI-powered image generation.
+
+## 📸 Poster Elements
+
+Generated posters can include:
+
+* Bangla headlines
+* User/leader photos
+* Party or organization information
+* Flags or symbols
+* Event/occasion information
+* Decorative background elements
+* Footer/printing information
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+Go to the project directory:
+
+```bash
+cd ai-political-poster-maker-frontend
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔐 Environment Variables
 
-## Learn More
+Create a `.env.local` file:
 
-To learn more about Next.js, take a look at the following resources:
+```env
+NEXT_PUBLIC_API_URL=your_backend_api_url
+NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+> Never commit secret API keys or sensitive credentials to GitHub.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🏗️ Production Build
 
-## Deploy on Vercel
+Create a production build:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run build
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Run the production application:
+
+```bash
+npm start
+```
+
+## ☁️ Deployment
+
+This project is deployed on **Vercel**. Vercel provides native support for Next.js applications and can automatically detect standard Next.js build settings.
+
+Production URL:
+
+https://ai-political-poster-maker-frontend-eight.vercel.app/
+
+## 🔮 Future Improvements
+
+* More poster templates
+* Advanced poster customization
+* Drag-and-drop design editor
+* More AI generation options
+* Download in high-resolution formats
+* Social media optimized poster sizes
+* Admin template management
+* Poster sharing
+* Better image editing tools
+
+## 👨‍💻 Developer
+
+**Abu Solayman Sefat**
+
+Frontend Developer | React.js | Next.js | TypeScript
+
+* Portfolio: https://portfolio-tau-jet-53.vercel.app/
+* GitHub: https://github.com/Abusolaymansefat
+* LinkedIn: https://www.linkedin.com/in/abu-solayman-sefat/
+
+## 📄 License
+
+This project is developed for educational and portfolio purposes.
