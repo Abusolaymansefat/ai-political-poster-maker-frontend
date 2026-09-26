@@ -3,6 +3,6 @@
   "outputDirectory": ".next",
   "framework": "nextjs",
   "env": {
-    "BACKEND_API_URL": "https://ai-political-poster-maker-backend-ten.vercel.app/api"
+    "BACKEND_API_URL": "https://ai-political-poster-maker-backend-ten.vercel.app/"
   }
 }
